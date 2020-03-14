@@ -2,7 +2,7 @@ inpt = open('C:\\Users\\Ani\\Downloads\\dataset_198_3.txt', 'r')
 output = open('C:\\Users\\Ani\\OneDrive\\Desktop\\output.txt', 'w')
 reads=[]
 
-for line in fin.readlines():
+for line in inpt.readlines():
     reads.append(line.replace('\n',''))
 
 k=len(reads[0])
